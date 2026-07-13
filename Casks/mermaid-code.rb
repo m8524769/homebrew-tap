@@ -2,11 +2,11 @@
 # frozen_string_literal: true
 
 cask "mermaid-code" do
-  arch arm: "aarch64", intel: "x64"
+  arch arm: "aarch64", intel: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
-  version "0.3.3"
-  sha256 arm:   "7788573a31d1e83aece0f9b24ec38204594f87e1643ff548e09ce3b13b90d6a2",
-         intel: "7116dfabdd57ab5b38cee6a22e0e2bca78ba7debc8da237018675b33eb208275"
+  version "0.3.4"
+  sha256 arm:   "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+         intel: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   url "https://github.com/m8524769/mermaid-code/releases/download/v#{version}/Mermaid.Code_#{version}_#{arch}.dmg"
   name "Mermaid Code"
