@@ -4,9 +4,9 @@
 cask "mermaid-code" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.4.3"
-  sha256 arm:   "bc251e271346bd0a18c50a350ed4576d1abbc61b19d5c6c18c7118042b982824",
-         intel: "81d59978ffa17488c03f1fd595c3c5e524f684f9bfc81d62571ba8733354ac3b"
+  version "0.4.4"
+  sha256 arm:   "d80ba4395e471fe7e217d134ffd432291378254ddc3546f032b5426af2084672",
+         intel: "ed97cc84730e4617ca1f2c986d098a5f01a1784eb3b78a05be6fb5fbb642ae7c"
 
   url "https://github.com/m8524769/mermaid-code/releases/download/v#{version}/Mermaid.Code_#{version}_#{arch}.dmg"
   name "Mermaid Code"
